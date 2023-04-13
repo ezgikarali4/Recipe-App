@@ -1,0 +1,26 @@
+{
+  "name": "recipe",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ezgi Karalı",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "alias": {
+    "process": {
+      "global": "{}"
+    }
+  },
+  "dependencies": {
+    "core-js": "^3.30.0",
+    "fractional": "^1.0.0",
+    "regenerator": "^0.14.10"
+  }
+}
